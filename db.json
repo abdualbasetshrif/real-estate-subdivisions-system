@@ -1,0 +1,5069 @@
+{
+  "users": [
+    {
+      "id": "dev_1",
+      "username": "admin",
+      "password": "123",
+      "role": "developer",
+      "companyName": "بسيط للتطوير العقاري",
+      "phone": "0912345678",
+      "subscriptionType": "premium",
+      "followedSubdivisions": []
+    },
+    {
+      "id": "agent_approved",
+      "username": "approved",
+      "password": "123",
+      "role": "agent",
+      "agentType": "approved",
+      "developerId": "dev_1",
+      "subdivisionId": "sub_1",
+      "companyName": "الوكيل المعتمد (كامل الصلاحيات)",
+      "phone": "0934445566",
+      "subscriptionType": "agent"
+    },
+    {
+      "id": "agent_marketing",
+      "username": "marketing",
+      "password": "123",
+      "role": "agent",
+      "agentType": "marketing",
+      "developerId": "dev_1",
+      "subdivisionId": "sub_1",
+      "companyName": "الوكيل المسوق (محدود الصلاحيات)",
+      "phone": "0945556677",
+      "subscriptionType": "agent"
+    },
+    {
+      "id": "broker_1",
+      "username": "broker",
+      "password": "123",
+      "role": "broker",
+      "companyName": "مكتب وساطة المدينة",
+      "phone": "0921112233",
+      "subscriptionType": "basic",
+      "followedSubdivisions": []
+    }
+  ],
+  "subdivisions": [
+    {
+      "id": "sub_1",
+      "developerId": "dev_1",
+      "name": "مخطط عين زارة النموذجي",
+      "grossArea": 30000,
+      "roadArea": 6966.638999999988,
+      "address": "طرابلس - عين زارة",
+      "roadDeductionMethod": "equal",
+      "landPurchasePrice": 5000000,
+      "totalLandArea": 30000
+    },
+    {
+      "id": "sub_1783896422952",
+      "developerId": "dev_1",
+      "name": "مقسم النشيع",
+      "grossArea": 40000,
+      "roadArea": 16805.385999999988,
+      "address": "النشيع",
+      "roadDeductionMethod": "proportional",
+      "landPurchasePrice": 800000,
+      "totalLandArea": 10000
+    }
+  ],
+  "plots": [
+    {
+      "id": "1",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 1,
+      "area": 935.139,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "2",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "2",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 2,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "1",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "3",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "3",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 3,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "2",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "4",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "4",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 4,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "3",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "5",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": true,
+      "reservorPhone": "092145698",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "5",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 5,
+      "area": 285.015,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "4",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "6",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "received": 285000,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "عادل فارس",
+      "ownerPhone": "0921456977",
+      "brokerName": "مكتب  الزطريني",
+      "brokerPhone": "092145699",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "6",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 6,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "5",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "7",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "7",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 7,
+      "area": 285.01,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "6",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "8",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 8,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "7",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "9",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "9",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 9,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "10",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 10,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "9",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "11",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 11,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "12",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "12",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 12,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "13",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 13,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "12",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "14",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 14,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "15",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "15",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 15,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "16",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "16",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 16,
+      "area": 304.017,
+      "facade": "شمالية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "15",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "17",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 17,
+      "area": 304.017,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "16",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "18",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 18,
+      "area": 304.017,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "19",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 19,
+      "area": 305.254,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "20",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "20",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 20,
+      "area": 325.542,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "21",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 21,
+      "area": 320.018,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "28",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "20",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "22",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 22,
+      "area": 285.008,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "23",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 23,
+      "area": 285.977,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "26",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "24",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 24,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "25",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 25,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "26",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "26",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 26,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "27",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 27,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "26",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "28",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "28",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 28,
+      "area": 328.5,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "29",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 29,
+      "area": 332.802,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "36",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "30",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 30,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "29",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "31",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 31,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "32",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 32,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "33",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 33,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "34",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 34,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "35",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 35,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "36",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "36",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 36,
+      "area": 335.765,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "29",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "37",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 37,
+      "area": 340.062,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "44",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "38",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 38,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "37",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "39",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 39,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "40",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 40,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "41",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 41,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "6",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "42",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 42,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "43",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 43,
+      "area": 320.018,
+      "facade": "طريق شرقي",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "44",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "44",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 44,
+      "area": 343.025,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "37",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "45",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 45,
+      "area": 347.322,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "46",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 46,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "47",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "45",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "47",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 47,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "48",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 48,
+      "area": 320.018,
+      "facade": "طريق غبي",
+      "nEast": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "5",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "47",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "49",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 49,
+      "area": 2000.678,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "2",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "50",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 50,
+      "area": 1500.089,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "51",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 51,
+      "area": 805.76,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "52",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "52",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 52,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "51",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "53",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "53",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 53,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "52",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "54",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "54",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 54,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "53",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "55",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "55",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 55,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "54",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "56",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "56",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 56,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "55",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "57",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "57",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 57,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "56",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "58",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "58",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 58,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "57",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "59",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "59",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 59,
+      "area": 285.006,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "58",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "60",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "60",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 60,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "59",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "61",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "61",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 61,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "60",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "62",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "62",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 62,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "61",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "63",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "63",
+      "subdivisionId": "sub_1783896422952",
+      "plotDisplayId": 63,
+      "area": 285.977,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "62",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "أرض فضاء",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "1",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 1,
+      "area": 935.139,
+      "facade": "شمالية غربية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "2",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "2",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 2,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "1",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "3",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "3",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 3,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "2",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "4",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "4",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 4,
+      "area": 285.015,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "3",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "5",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "5",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 5,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "4",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "6",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "received": 285000,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "محمد الغرياني",
+      "ownerPhone": "0944511524",
+      "brokerName": "مكتب الزطريني",
+      "brokerPhone": "0921456987",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "6",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 6,
+      "area": 285.01,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "5",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "7",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "7",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 7,
+      "area": 285.018,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "6",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "8",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 8,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "7",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "9",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "received": 6900000,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "جلال فتحي",
+      "ownerPhone": "092145879",
+      "brokerName": "مكتب حمزه",
+      "brokerPhone": "092145698",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "9",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 9,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "10",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 10,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "9",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "11",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 11,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "12",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "12",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 12,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "13",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 13,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "12",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "14",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 14,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "15",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "15",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 15,
+      "area": 285.016,
+      "facade": "شمالية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "16",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "16",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 16,
+      "area": 285.008,
+      "facade": "شمالية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "15",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "17",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 17,
+      "area": 285.008,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "16",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "18",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 18,
+      "area": 285.008,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "19",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 19,
+      "area": 285.008,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "20",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "20",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 20,
+      "area": 285.008,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "21",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 21,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "28",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "20",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "22",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 22,
+      "area": 304.017,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "19",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "23",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 23,
+      "area": 304.017,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "18",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "24",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "22",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "24",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 24,
+      "area": 304.017,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "17",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "14",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "23",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "25",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 25,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "26",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "12",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "26",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 26,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "13",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "27",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 27,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "25",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "26",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "28",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "28",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 28,
+      "area": 328.5,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "21",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "27",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "29",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 29,
+      "area": 332.802,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "36",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "30",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 30,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "29",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "31",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 31,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "32",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 32,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "11",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "33",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 33,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "32",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "10",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "34",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 34,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "31",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "33",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "35",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 35,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "30",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "34",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "36",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "36",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 36,
+      "area": 335.765,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "29",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "35",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "37",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 37,
+      "area": 340.062,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "44",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "38",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 38,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "37",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "39",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 39,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "40",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 40,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "8",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "41",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 41,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "40",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "7",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "42",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 42,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "39",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "41",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "43",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 43,
+      "area": 320.018,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "38",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "42",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "44",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "44",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 44,
+      "area": 343.025,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "37",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "43",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "45",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 45,
+      "area": 347.322,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "46",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 46,
+      "area": 285.006,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "47",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "45",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "47",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 47,
+      "area": 325.542,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "48",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 48,
+      "area": 320.018,
+      "facade": "غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "4",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "47",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "49",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 49,
+      "area": 2000.678,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "48",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "3",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "50",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 50,
+      "area": 1500.089,
+      "facade": "شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "46",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "49",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "neighbor",
+        "name": "51",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "51",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 51,
+      "area": 805.76,
+      "facade": "جنوبية شرقية",
+      "nEast": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "52",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "neighbor",
+        "name": "50",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "52",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 52,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "51",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "53",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "53",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 53,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "52",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "54",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "54",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 54,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "53",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "55",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "55",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 55,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "54",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "56",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "56",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 56,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "55",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "57",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "57",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 57,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "56",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "58",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "58",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 58,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "57",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "59",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "59",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 59,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "58",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "60",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "60",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 60,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "59",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "61",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "61",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 61,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "60",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "62",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "62",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 62,
+      "area": 285.008,
+      "facade": "جنوبية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "61",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "neighbor",
+        "name": "63",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    },
+    {
+      "id": "63",
+      "subdivisionId": "sub_1",
+      "plotDisplayId": 63,
+      "area": 285.977,
+      "facade": "جنوبية غربية",
+      "nEast": {
+        "type": "neighbor",
+        "name": "62",
+        "phone": ""
+      },
+      "nWest": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nNorth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "nSouth": {
+        "type": "street",
+        "name": "طريق",
+        "phone": ""
+      },
+      "received": 0,
+      "remaining": 0,
+      "reserved": false,
+      "reservorPhone": "",
+      "ownerName": "",
+      "ownerPhone": "",
+      "brokerName": "",
+      "brokerPhone": "",
+      "isPreActivationSale": false,
+      "soldByAgentId": null,
+      "installmentPlan": null,
+      "divisions": []
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "subdivisionId": "sub_1",
+      "category": "",
+      "description": "كهرباء",
+      "amount": 200000,
+      "date": "",
+      "notes": "",
+      "addedByUsername": "admin"
+    },
+    {
+      "id": "2",
+      "subdivisionId": "sub_1",
+      "category": "",
+      "description": "قطران",
+      "amount": 800000,
+      "date": "",
+      "notes": "",
+      "addedByUsername": "admin"
+    }
+  ],
+  "investors": [
+    {
+      "id": "inv_1",
+      "subdivisionId": "sub_1",
+      "name": "عادل فارس",
+      "amount": 3000000,
+      "deposits": [
+        {
+          "amount": 3000000,
+          "date": "2026-07-19",
+          "paymentMethod": "cash"
+        }
+      ],
+      "withdrawals": [
+        {
+          "amount": 50000,
+          "date": "2026-07-19",
+          "paymentMethod": "cash"
+        }
+      ]
+    },
+    {
+      "id": "inv_2",
+      "subdivisionId": "sub_1",
+      "name": "عبدالله فارس ",
+      "amount": 2500000,
+      "deposits": [
+        {
+          "amount": 2500000,
+          "date": "2026-07-19",
+          "paymentMethod": "cash"
+        }
+      ],
+      "withdrawals": []
+    },
+    {
+      "id": "inv_3",
+      "subdivisionId": "sub_1",
+      "name": "عثمان فارس ",
+      "amount": 500000,
+      "deposits": [
+        {
+          "amount": 500000,
+          "date": "2026-07-19",
+          "paymentMethod": "cash"
+        }
+      ],
+      "withdrawals": []
+    }
+  ],
+  "devPartners": [],
+  "messages": [],
+  "follows": [
+    {
+      "brokerId": "broker_1",
+      "type": "subdivision",
+      "targetId": "sub_1783896422952"
+    }
+  ]
+}
